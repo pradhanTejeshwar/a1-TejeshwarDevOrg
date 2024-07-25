@@ -1,0 +1,36 @@
+<apex:page standardController="Account" extensions="LeadExtension" sidebar="false">
+    
+    <apex:pageBlock title="Account View Page">
+        
+        <apex:pageBlockSection title="Basic Info" collapsible="false">
+            
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputField value="{!Account.AccountNumber}"/>
+            <apex:outputField value="{!Account.Phone}"/>
+            <apex:outputField value="{!Account.Type}"/>
+            
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection columns="1" collapsible="false" title="General Info">
+            
+        	<apex:outputField value="{!Account.Description}"/>
+            
+        </apex:pageBlockSection>
+        
+    </apex:pageBlock>
+    
+    <apex:pageBlock >
+    
+    	<apex:pageBlockTable value="{!lList}" var="l">
+        
+        	<apex:column value="{!l.Name}"/>
+            <apex:column value="{!l.Status}"/>
+            <!--
+			<apex:column value="{!l.Type}"/>
+			-->
+            
+        </apex:pageBlockTable>
+    
+    </apex:pageBlock>
+    
+</apex:page>
