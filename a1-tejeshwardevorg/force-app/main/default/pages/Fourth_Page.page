@@ -1,5 +1,0 @@
-<apex:page controller="CollectionsController">
-    <apex:form >
-        <apex:commandButton value="Save" action="{! foobar }"/>
-    </apex:form>
-</apex:page>

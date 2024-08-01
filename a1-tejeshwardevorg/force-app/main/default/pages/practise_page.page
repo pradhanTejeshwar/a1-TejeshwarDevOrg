@@ -1,5 +1,0 @@
-<apex:page standardController="Account" extensions="FirstExtension,SecondExtension">
-	<apex:form >
-        <apex:commandButton value="Submit" action="{! foobar }"/>
- 	</apex:form>
-</apex:page>

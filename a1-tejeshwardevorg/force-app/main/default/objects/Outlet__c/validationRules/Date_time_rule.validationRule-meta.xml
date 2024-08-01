@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Date_time_rule</fullName>
-    <active>true</active>
-    <errorConditionFormula>Date_and_Time__c &gt;  NOW()</errorConditionFormula>
-    <errorMessage>DateTime should be created before the current Time</errorMessage>
-</ValidationRule>

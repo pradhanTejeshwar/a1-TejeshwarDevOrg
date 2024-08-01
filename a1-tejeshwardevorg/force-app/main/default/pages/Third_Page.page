@@ -1,7 +1,0 @@
-<apex:page Controller="Third_Controller">
-    <apex:form >                
-        <apex:commandButton value="Submit" action="{!functionName}"/>
-    </apex:form>
-    <apex:detail />
-  
-</apex:page>
