@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:form >
+        <apex:commandButton value="Submit" action="{! invoke }"/>
+    </apex:form>
+</apex:page>

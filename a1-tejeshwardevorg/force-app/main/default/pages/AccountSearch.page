@@ -1,0 +1,32 @@
+<apex:page controller="AccountSearchController">
+    <apex:tabPanel >
+        <apex:tab label="Tab 1">
+            <apex:form >
+            
+                <apex:pageBlock >
+                
+                    <apex:pageBlockSection >
+                        <apex:inputText value="{!searchText}" />
+                    </apex:pageBlockSection>
+                    
+                    <apex:pageBlockSection >
+                        <apex:pageBlockTable value="{!accList}" var="a" id="accTable">
+                            <apex:column value="{!a.Name}"/>
+                            <apex:column value="{!a.NumberOfEmployees}"/>
+                            <apex:column value="{!a.Type}"/>
+                        </apex:pageBlockTable>
+                    </apex:pageBlockSection>
+               
+                    <apex:pageBlockButtons location="top">
+                        <apex:commandButton action="{!search}" value="Search Account Records" reRender="accTable"  rendered="true"/>
+                    </apex:pageBlockButtons>
+                    
+                </apex:pageBlock>
+        
+            </apex:form>
+        </apex:tab>
+        
+       	<apex:tab label="Future tabs">
+        </apex:tab>
+    </apex:tabPanel>
+</apex:page>

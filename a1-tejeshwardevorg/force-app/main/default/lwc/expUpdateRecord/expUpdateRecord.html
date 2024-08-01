@@ -1,0 +1,9 @@
+<template>
+    Account Name
+    <lightning-input name="name" value={name} onchange={handleChange}></lightning-input>
+    Rating
+    <lightning-input name="rating" value={rating} onchange={handleChange}>Rating</lightning-input>
+    Industry
+    <lightning-input name="industry" value={industry} onchange={handleChange}>Industry</lightning-input>
+    <lightning-button label="Update" onclick={handleUpdate}></lightning-button>
+</template>

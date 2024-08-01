@@ -1,0 +1,4 @@
+<apex:page controller="BoxAuthenticationController" action="{! tradeAuthCode }">
+    Hello World !
+    {!body}
+</apex:page>
