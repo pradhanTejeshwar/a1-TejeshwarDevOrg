@@ -1,14 +1,14 @@
 <aura:application >
     
-    <link href='/resource/bootstrap/' rel= "stylesheet" />
+    <link href = '/resource/bootstrap/' rel = "stylesheet" />
     
-    <div class="navbarnavbar-default navbar-static-top" role="navigation">
+    <div class = "navbarnavbar-default navbar-static-top" role = "navigation">
         
-        <div class="container">
+        <div class = "container">
 
-            <div class="navbar-header">
+            <div class = "navbar-header">
 
-                <a href="#" class= "navbar-brand">
+                <a href = "#" class = "navbar-brand">
                 	
                     Lightning Contacts
                     
@@ -20,27 +20,15 @@
         
     </div>
     
-    <div class="container">
+    
+    <div class = "container">
     	
-        <div class="row">
+        <div class = "row">
         	
-            <div class="col-sm-12">
-
+            <div class = "col-sm-12">
+				
                 <c:SearchBar />
                 
-            </div>
-            
-        </div>
-        
-    </div>
-    <c:SearchBar />
-    
-    <div class="container">
-    	
-        <div class="row">
-        	
-            <div class="col-sm-12">
-
                 <c:ContactList />
                 
             </div>

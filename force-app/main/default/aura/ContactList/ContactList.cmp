@@ -1,21 +1,21 @@
-<aura:component controller="ContactController">
+<aura:component controller = "ContactController">
     
-    <aura:attribute name="contacts" type="Contact[]" />
+    <aura:attribute name = "contacts" type="Contact[]" />
     
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 	
-    <aura:handler event="c:SearchKeyChange" action="{!c.searchKeyChange}" />
+    <aura:handler event = "c:SearchKeyChange" action = "{!c.searchKeyChange}" />
                   
-    <ul class="list-group">
+    <ul class = "list-group">
     	
-        <aura:iteration items="{!v.contacts}" var="contact">
+        <aura:iteration items = "{!v.contacts}" var = "contact">
         	
-            <li class="list-group-item">
+            <li class = "list-group-item">
                 
                 <a href = "{!'#contact/'+contact.ID}">
                 	
-                    <p>{!contact.Name}</p>
-                    <p>{!contact.Phone}</p>
+                    <p> {!contact.Name} </p>
+                    <p> {!contact.Phone} </p>
                     
                 </a>
                    
