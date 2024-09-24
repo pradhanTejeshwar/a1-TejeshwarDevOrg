@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>employee_no_rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>No_of_Employee__c &gt; 100</errorConditionFormula>
+    <errorMessage>Number of Employee can not be more than 100</errorMessage>
+</ValidationRule>
