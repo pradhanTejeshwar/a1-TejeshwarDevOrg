@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nearest_Distance__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL( Options__c , &apos;New Delhi&apos;) , &apos;Nearest Distance is 100m&apos;,  
+IF(ISPICKVAL( Options__c , &apos;Kolkata&apos;), &apos;Nearest Distance is 1Km&apos;, &apos;Nearest Distance is 10Km&apos;) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nearest Distance</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -6,7 +6,7 @@
     }
   ],
   "name": "a1-TejeshwarDevOrg",
-  "namespace": "",
+  "namespace": "tejeshwar",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"
 }
