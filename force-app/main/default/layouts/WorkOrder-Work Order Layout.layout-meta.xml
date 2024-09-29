@@ -31,10 +31,6 @@
                 <behavior>Edit</behavior>
                 <field>ServiceContractId</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>CurrencyIsoCode</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -115,6 +111,29 @@
     </miniLayout>
     <relatedLists>
         <fields>Name</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>NewWorkPlans</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>NewWorkSteps</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>ExecutionOrder</fields>
+        <fields>WorkOrderLineItem</fields>
+        <relatedList>WorkPlans</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExecutionOrder</fields>
+        <relatedList>WorkSteps</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
         <fields>Asset</fields>
         <relatedList>WorkOrderLineItems</relatedList>
     </relatedLists>
@@ -150,21 +169,6 @@
         <fields>Priority</fields>
         <fields>Status</fields>
         <relatedList>ChildWorkOrders</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>Contact</fields>
-        <fields>Account</fields>
-        <fields>Status</fields>
-        <fields>SchedStartTime</fields>
-        <fields>SchedEndTime</fields>
-        <fields>EarliestStartTime</fields>
-        <relatedList>ServiceAppointments</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Skill</fields>
-        <fields>SkillLevel</fields>
-        <relatedList>SkillRequirements</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

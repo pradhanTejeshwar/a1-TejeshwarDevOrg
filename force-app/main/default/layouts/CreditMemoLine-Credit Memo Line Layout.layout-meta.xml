@@ -34,10 +34,6 @@
                 <behavior>Edit</behavior>
                 <field>ReferenceEntityItemType</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CurrencyIsoCode</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -76,6 +72,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>TaxAmount</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>LineAmount</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
