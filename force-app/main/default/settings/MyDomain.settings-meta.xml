@@ -4,7 +4,7 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <doesWarnOnForceComRedirect>false</doesWarnOnForceComRedirect>
     <doesWarnOnRedirect>false</doesWarnOnRedirect>
-    <domainPartition>none</domainPartition>
+    <domainPartition>trailblaze</domainPartition>
     <enableEdgeDuringRollout>true</enableEdgeDuringRollout>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
@@ -13,7 +13,7 @@
     <instancedUrlRedirectHandling>NoRedirect</instancedUrlRedirectHandling>
     <isFirstPartyCookieUseRequired>false</isFirstPartyCookieUseRequired>
     <logRedirections>false</logRedirections>
-    <myDomainName>tejeshwarcompany-dev-ed</myDomainName>
+    <myDomainName>wise-fox-4kvnrw-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>

@@ -10,15 +10,4 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Field__c</tabs>
-    <tabs>Outlet__c</tabs>
-    <tabs>Device__c</tabs>
-    <tabs>Account__c</tabs>
-    <tabs>Outlets_Device__c</tabs>
-    <tabs>Default__c</tabs>
-    <tabs>Soccer__c</tabs>
-    <tabs>CustomObject__c</tabs>
-    <tabs>Salary_Distribution__c</tabs>
-    <tabs>Reserve__c</tabs>
-    <tabs>Expenditure__c</tabs>
 </CustomApplication>
