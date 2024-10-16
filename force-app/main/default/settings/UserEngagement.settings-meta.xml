@@ -24,10 +24,10 @@
     <isAutoTransitionDelayed>false</isAutoTransitionDelayed>
     <isCrucNotificationDisabled>false</isCrucNotificationDisabled>
     <isCustomProfileAutoTransitionDelayed>false</isCustomProfileAutoTransitionDelayed>
-    <isLEXWelcomeMatDisabled>true</isLEXWelcomeMatDisabled>
+    <isLEXWelcomeMatDisabled>false</isLEXWelcomeMatDisabled>
     <isMeetTheAssistantDisabledInClassic>false</isMeetTheAssistantDisabledInClassic>
     <isMeetTheAssistantDisabledInLightning>false</isMeetTheAssistantDisabledInLightning>
     <isSmartNudgesDisabled>false</isSmartNudgesDisabled>
     <optimizerAppEnabled>false</optimizerAppEnabled>
-    <suggestedForYou>false</suggestedForYou>
+    <suggestedForYou>true</suggestedForYou>
 </UserEngagementSettings>
